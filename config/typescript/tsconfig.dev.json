@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../../",
+    "paths": {
+      "component-pkg": ["src"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "outDir": "../../compiled_example/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ]
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles ": [
+      "../../src/**/*.{ts,tsx}"
+    ]
+  }
+}

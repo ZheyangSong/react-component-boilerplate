@@ -1,0 +1,16 @@
+.dummy {
+  &-wrapper {
+    padding: 1.5rem 1rem;
+  }
+
+  &-title {
+    font-size: 2.25rem;
+    color: crimson;
+    margin-bottom: 1.2rem;
+  }
+
+  &-content {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+  }
+}

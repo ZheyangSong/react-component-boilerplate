@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "config",
+    "package.json"
+  ],
+  "ext": "ts json"
+}

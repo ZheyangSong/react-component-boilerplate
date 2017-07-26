@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../",
+    "paths": {
+      "component-pkg": ["src"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ]
+  }
+}
